@@ -20,7 +20,7 @@ body{
     align-items:center;
     flex-wrap: wrap;
     margin-left:520px;
-    margin-top:50px;
+    margin-top:100px;
      gap:1.5vmin;
 }
 .box{
@@ -43,4 +43,28 @@ body{
     cursor:pointer;
     margin-left: 690px;
     margin-top:20px;
+}
+.msg-container{
+    height:100vh;
+     display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction:column;
+   gap:1.5vmin;
+}
+.hiden{
+    display:none;
+}
+.msgP{
+    font-size:5rem;
+    color:#FF5722;
+}
+.new-game{
+    height:60px;
+    width:160px;
+    background-color:#15370D;
+    border: none;
+    border-radius: 20px;
+    color:#E5CD82;
+    font-size:1.2rem;
 }
